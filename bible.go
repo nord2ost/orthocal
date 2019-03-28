@@ -13,10 +13,10 @@ import (
 // These books have a single chapter
 var chapterlessBooks = map[string]bool{
 	"OBA": true,
-	"PHM": true,
-	"2JN": true,
-	"3JN": true,
-	"JUD": true,
+	"Фил.": true,
+	"2Ін.": true,
+	"3Ін.": true,
+	"Іуд.": true,
 }
 
 type Verse struct {

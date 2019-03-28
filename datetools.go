@@ -32,32 +32,32 @@ const (
 )
 
 var FastLevels = map[int]string{
-	NoFast:        "No Fast",
-	Fast:          "Fast",
-	LentenFast:    "Lenten Fast",
-	ApostlesFast:  "Apostles Fast",
-	DormitionFast: "Dormition Fast",
-	NativityFast:  "Nativity Fast",
+	NoFast:        "Посту немає",
+	Fast:          "Піст",
+	LentenFast:    "Великий піст",
+	ApostlesFast:  "Петрівський піст",
+	DormitionFast: "Успенський піст",
+	NativityFast:  "Різдвяний піст",
 }
 
 var FastExceptions = map[int]string{
-	1:  "Wine and Oil are Allowed",
-	2:  "Fish, Wine and Oil are Allowed",
-	3:  "Wine and Oil are Allowed",
-	4:  "Fish, Wine and Oil are Allowed",
-	5:  "Wine is Allowed",
-	6:  "Wine, Oil and Caviar are Allowed",
-	7:  "Meat Fast",
-	8:  "Strict Fast (Wine and Oil)",
-	9:  "Strict Fast",
-	10: "No overrides",
-	11: "Fast Free",
+	1:  "Дозволено вино та олію",
+	2:  "Дозволено рибу, вино та олію",
+	3:  "Дозволено вино та олію",
+	4:  "Дозволено рибу, вино та олію",
+	5:  "Дозволено вино",
+	6:  "Дозволено вино, ікру та олію",
+	7:  "Не споживаємо м'яса",
+	8:  "Суворий піст (вино та олія)",
+	9:  "Суворий піст",
+	10: "Піст є",
+	11: "Посту немає",
 }
 
 var FeastLevels = map[int]string{
-	-1: "No Liturgy",
-	0:  "Liturgy",
-	1:  "Presanctified",
+	-1: "Немає літургії",
+	0:  "Літургія",
+	1:  "Ранішесвячених дарів",
 	2:  "Black squigg (6-stich typikon symbol)",
 	3:  "Red squigg (doxology typikon symbol)",
 	4:  "Red cross (polyeleos typikon symbol)",
