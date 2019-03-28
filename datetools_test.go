@@ -1,9 +1,10 @@
 package orthocal_test
 
 import (
-	"github.com/brianglass/orthocal"
 	"testing"
 	"time"
+
+	"github.com/nord2ost/orthocal"
 )
 
 var fixture_gregorian_pascha = []time.Time{

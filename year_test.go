@@ -1,9 +1,10 @@
 package orthocal_test
 
 import (
-	"github.com/brianglass/orthocal"
 	"reflect"
 	"testing"
+
+	"github.com/nord2ost/orthocal"
 )
 
 func TestComputePDists(t *testing.T) {
